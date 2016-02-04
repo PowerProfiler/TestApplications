@@ -24,9 +24,8 @@
 int main(void)
 {
     lpm_arch_init();
-    lpm_arch_set(LPM_SLEEP);
 
-    while(1);
+    while(1) lpm_arch_set(LPM_SLEEP);
 
     return 0;
 }
