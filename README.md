@@ -27,6 +27,8 @@ In order for this jig to work, the application must have periodic behavior. For 
 
 ## Hamilton
 
-The Hamilton mote is a board based on the ATSAMR21E18A (similar to the MCU present on the SAMR21XPRO) with an attached LED and crystal for the radio. Normally, the Hamilton also has an accelerometer, temperature sensor and light sensor but these have been removed from the DUT here so that they do not interfere with power consumption.
+![hamilton mote](https://raw.githubusercontent.com/immesys/baseliner/master/misc/hamilton-sm.jpg)
+The Hamilton mote (so named for its $10 cost) is a board based on the ATSAMR21E18A (similar to the MCU present on the SAMR21XPRO). Normally, the Hamilton also has an accelerometer, temperature sensor and light sensor but for the power measurement rig, these have been removed so that they do not interfere with power consumption.
+![test setup](https://raw.githubusercontent.com/immesys/baseliner/master/misc/setup-sm.jpg)
 
 If there are any problems with the power profiler, please create an issue on PowerProfiler/RIOT.
